@@ -22,7 +22,7 @@ Following this model :
    ```
 ***To be noted :*** Current and Savings Account inherits from BankAccount
 
-### After that we create the repository interfaces needed for this app, namely:
+### After that I created the repository interfaces needed for this app, namely:
 <br/>
 <img src="./img/CreationofREpositories.png">
 
@@ -40,7 +40,10 @@ Extending from the interface commandLineRunner, use the run method to create a t
 <img src="./img/testinDAOLayerDatabase.png">
 
 ### Next up I created the corresponding DTOS
-
+<p>
+DTOs or Data Transfer Objects are objects that carry data between processes in order to reduce the number of method calls
+</p>
+<img src="./img/CreationOfDTOs.png">
 RestController
 Tester les web services Restful
 
