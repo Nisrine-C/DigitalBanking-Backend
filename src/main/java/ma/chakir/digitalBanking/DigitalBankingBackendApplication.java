@@ -23,7 +23,7 @@ import java.util.Date;
 import java.util.List;
 
 @SpringBootApplication
-public class DigitalBankingBackendApplication implements CommandLineRunner {
+public class DigitalBankingBackendApplication {
 
     @Autowired
     private CustomerRepository customerRepository;
@@ -32,13 +32,5 @@ public class DigitalBankingBackendApplication implements CommandLineRunner {
         SpringApplication.run(DigitalBankingBackendApplication.class, args);
     }
 
-    @Override
-    public void run(String... args) throws Exception {
-        Customer customer = new Customer();
-        customer.setName("test");
-        customer.setEmail("email@test.com");
 
-        customerRepository.save(customer);
-
-    }
 }
