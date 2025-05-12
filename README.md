@@ -160,5 +160,5 @@ Finally, the main class `DigitalBankingBackendApplication` is the entry point of
 
 ### API Test
 
-Now to test the endpoints, as the database is not full there will be no dummy data.
-So I'll use the result's code to determine the functionality of each endpoint:
+Now to test the endpoints, using swaggerUI:
+<img src="./img/endpoints.png">
